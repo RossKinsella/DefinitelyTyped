@@ -2128,6 +2128,16 @@ export class KeepAwake extends Component {
     static deactivate(): void;
 }
 
+/**
+ * StoreReview
+ */
+export class StoreReview {
+  static requestReview(): Promise<void>;
+  static isSupported(): boolean;
+  static storeUrl(): string;
+  static hasAction(): boolean;
+}
+
 // #region LinearGradient
 /**
  * LinearGradient
